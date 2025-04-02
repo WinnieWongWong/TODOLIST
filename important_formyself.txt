@@ -1,0 +1,26 @@
+Daily :
+
+Java -> streams
+sql -> Look for video
+linux -> look for poe
+reactjs > react hooks
+
+Weekly:
+
+kubernates | docker | security | spring boot | kafka | mircroservice | python
+| Non traditional database :mongodb | git |　deepseek ｜Large Language Models (LLMs)
+
+
+Do storage app
+
+
+
+
+https://medium.com/@tuteja_lovish/optimizing-spring-boot-for-extreme-scale-how-to-handle-1m-requests-per-second-f6ef42d407b6
+https://medium.com/@ByteCodeBlogger/tricky-interview-question-can-you-run-a-java-class-without-main-e1657796d8c2
+https://rameshfadatare.medium.com/spring-boot-security-jwt-authentication-tutorial-306fbc3663ea
+https://anilr8.medium.com/mastering-spring-boot-rest-apis-with-pagination-sorting-filtering-caching-and-testing-0253a3b06cee
+https://medium.com/@joudwawad/microservices-pattern-distributed-transactions-saga-92b5e933cea1
+https://codefarm0.medium.com/10-tricky-microservices-scenario-based-interview-questions-and-answers-6a2309a1ea34
+https://medium.com/@ShantKhayalian/mastering-event-driven-architecture-kafka-pulsar-rabbitmq-spring-boot-22b76bffc951
+https://kubernetes.io/docs/concepts/windows/intro/
