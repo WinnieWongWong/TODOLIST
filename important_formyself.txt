@@ -1,19 +1,24 @@
 Daily :
 
-Java -> streams
+Java -> https://www.javaguides.net/2025/04/stop-writing-if-else-like-beginner.html
 sql -> Look for video
-linux -> look for poe
 reactjs > react hooks
+kubernates/docker/kafka/mircroservice -> video
 
 Weekly:
 
-kubernates | docker | security | spring boot | kafka | mircroservice | python
-| Non traditional database :mongodb | git |　deepseek ｜Large Language Models (LLMs)
+security | python | Non traditional database :mongodb | git |　deepseek ｜Large Language Models (LLMs) | AI | AI agent
+
+Do some practise
 
 
-Do storage app
-
-
+Must study 
+https://www.javaguides.net/2025/04/stop-writing-if-else-like-beginner.html
+===================
+https://medium.com/@gaddamnaveen192/interview-how-would-you-optimize-the-performance-of-a-spring-boot-application-dea8e077d1dc
+https://medium.com/@khouloud.haddad/java-design-patterns-a-complete-guide-to-writing-better-code-8af592d44457
+https://medium.com/hack-the-stack/9-database-optimization-tricks-sql-experts-are-hiding-from-you-40834c93be86
+https://medium.com/@gaddamnaveen192/kafka-idempotent-producer-the-hidden-secret-to-stop-duplicate-messages-2c49f931976e
 
 
 https://medium.com/@tuteja_lovish/optimizing-spring-boot-for-extreme-scale-how-to-handle-1m-requests-per-second-f6ef42d407b6
