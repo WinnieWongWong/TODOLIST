@@ -29,3 +29,12 @@ https://medium.com/@joudwawad/microservices-pattern-distributed-transactions-sag
 https://codefarm0.medium.com/10-tricky-microservices-scenario-based-interview-questions-and-answers-6a2309a1ea34
 https://medium.com/@ShantKhayalian/mastering-event-driven-architecture-kafka-pulsar-rabbitmq-spring-boot-22b76bffc951
 https://kubernetes.io/docs/concepts/windows/intro/
+https://medium.com/@hxu0407/stop-writing-null-everywhere-heres-a-smarter-way-7fc5608c77e3
+https://medium.com/@shivamsrivastava.iec/e008b8beabc4
+https://blog.stackademic.com/saga-pattern-in-microservices-architecture-f9e0278a687e
+https://medium.com/@haiou-a/stream-is-awesome-map-is-cool-but-promise-me-dont-use-tomap-9cbdabb45326
+https://amritpandey.medium.com/jdk-24-is-here-game-changing-features-every-java-developer-must-know-c34754286d02
+https://medium.com/@poojaauma/tricky-and-interesting-java-interview-questions-on-collections-ae63cb88132c
+https://rameshfadatare.medium.com/stop-writing-utility-classes-the-old-way-use-functional-interfaces-instead-4b1e0d5fefc1
+https://medium.com/@hnasr/apache-kafka-architecture-a905390e7615
+https://medium.com/@gaddamnaveen192/flatmap-explanation-in-java8-bf0ec5476271
