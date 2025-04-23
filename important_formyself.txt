@@ -38,3 +38,9 @@ https://medium.com/@poojaauma/tricky-and-interesting-java-interview-questions-on
 https://rameshfadatare.medium.com/stop-writing-utility-classes-the-old-way-use-functional-interfaces-instead-4b1e0d5fefc1
 https://medium.com/@hnasr/apache-kafka-architecture-a905390e7615
 https://medium.com/@gaddamnaveen192/flatmap-explanation-in-java8-bf0ec5476271
+https://medium.com/@sureshkrishna75525/top-25-microservices-interview-questions-and-answers-in-2025-88492198f345
+https://medium.com/javarevisited/dont-go-into-your-system-design-interview-without-mastering-this-31ee7af2ed7b
+
+
+Daily study java here:
+https://www.javaguides.net/2025/02/saga-pattern-in-microservices.html
