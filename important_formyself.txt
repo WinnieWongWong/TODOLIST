@@ -3,24 +3,23 @@ Daily :
 Java -> https://www.javaguides.net/2025/04/stop-writing-if-else-like-beginner.html
 sql -> Look for video
 reactjs > react hooks
-kubernates/docker/kafka/mircroservice -> video
+kubernates | docker | kafka | mircroservice | Github deep use | application security  | AI and AI Agent | AWS (If ready , can apply course)
 
 Weekly:
+Do spring boot application practise
 
-security | python | Non traditional database :mongodb | git |　deepseek ｜Large Language Models (LLMs) | AI | AI agent
+Material:
 
-Do some practise
-
-
-Must study 
+DAILY study source(javaguides)
 https://www.javaguides.net/2025/04/stop-writing-if-else-like-beginner.html
+
 ===================
+
+DAILY study source(Medium)
 https://medium.com/@gaddamnaveen192/interview-how-would-you-optimize-the-performance-of-a-spring-boot-application-dea8e077d1dc
 https://medium.com/@khouloud.haddad/java-design-patterns-a-complete-guide-to-writing-better-code-8af592d44457
 https://medium.com/hack-the-stack/9-database-optimization-tricks-sql-experts-are-hiding-from-you-40834c93be86
 https://medium.com/@gaddamnaveen192/kafka-idempotent-producer-the-hidden-secret-to-stop-duplicate-messages-2c49f931976e
-
-
 https://medium.com/@tuteja_lovish/optimizing-spring-boot-for-extreme-scale-how-to-handle-1m-requests-per-second-f6ef42d407b6
 https://medium.com/@ByteCodeBlogger/tricky-interview-question-can-you-run-a-java-class-without-main-e1657796d8c2
 https://rameshfadatare.medium.com/spring-boot-security-jwt-authentication-tutorial-306fbc3663ea
@@ -40,7 +39,9 @@ https://medium.com/@hnasr/apache-kafka-architecture-a905390e7615
 https://medium.com/@gaddamnaveen192/flatmap-explanation-in-java8-bf0ec5476271
 https://medium.com/@sureshkrishna75525/top-25-microservices-interview-questions-and-answers-in-2025-88492198f345
 https://medium.com/javarevisited/dont-go-into-your-system-design-interview-without-mastering-this-31ee7af2ed7b
-
-
-Daily study java here:
+https://medium.com/@gaddamnaveen192/kafka-230-all-scenario-interview-questions-to-help-you-crack-40c146432b43
+https://medium.com/@himanshu675/the-docker-era-is-over-for-spring-boot-heres-what-s-replacing-it-9c573df4e035
+https://medium.com/@gaddamnaveen192/interview-how-to-handles-errors-in-kafka-8443b67a6d0e
+https://medium.com/@letslearnnow/mastering-java-streams-tricky-employee-data-challenges-you-must-solve-must-know-e922a2867882
+https://medium.com/@himanshu675/stop-using-kafkalistener-like-this-the-spring-boot-anti-pattern-nobody-talks-about-88cdd695455a
 https://www.javaguides.net/2025/02/saga-pattern-in-microservices.html
