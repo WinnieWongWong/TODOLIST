@@ -45,3 +45,7 @@ https://medium.com/@gaddamnaveen192/interview-how-to-handles-errors-in-kafka-844
 https://medium.com/@letslearnnow/mastering-java-streams-tricky-employee-data-challenges-you-must-solve-must-know-e922a2867882
 https://medium.com/@himanshu675/stop-using-kafkalistener-like-this-the-spring-boot-anti-pattern-nobody-talks-about-88cdd695455a
 https://www.javaguides.net/2025/02/saga-pattern-in-microservices.html
+https://medium.com/@kanishksinghpujari/kubernetes-without-docker-is-the-future-are-you-ready-f63a9a7746de
+https://medium.com/@sharmapraveen91/clean-code-coding-guidelines-java-spring-boot-api-36a88e588008
+https://rishi-preetham.medium.com/java-interview-questions-in-2025-with-updated-technologies-4d4fd69cf68f
+https://blog.stackademic.com/10-microservices-exceptions-every-java-developer-wishes-they-knew-earlier-9c14c19bb082
