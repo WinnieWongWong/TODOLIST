@@ -1,0 +1,18 @@
+Cannot access , may use other boewser for not hit paywall count
+
+https://medium.com/nerd-for-tech/i-discovered-this-amazing-intellij-feature-after-6-years-72eeb58f1349
+https://medium.com/javarevisited/java-because-i-didnt-know-whether-the-try-catch-block-should-be-placed-outside-or-inside-the-for-50de407dcf63
+
+https://medium.com/@sylvain.tiset/top-10-microservices-design-patterns-you-should-know-1bac6a7d6218
+https://medium.com/@kenslearningcurve/c-is-dead-6acfd6e4d7d6
+https://medium.com/javarevisited/re-write-this-java-if-else-code-block-or-ill-reject-your-pull-request-953f20c0f544
+https://blog.stackademic.com/spring-boot-implementing-automatic-order-cancellation-after-30-minutes-e020292ea6e2
+https://medium.com/@ByteCodeBlogger/mapstruct-another-way-to-map-between-entity-and-dto-5ee23effb222
+https://awstip.com/how-to-build-real-time-notifications-in-spring-boot-applications-8685604eaed8
+https://devrajcoder.medium.com/how-to-design-a-thread-safe-class-in-java-a51dd7987c5b
+
+
+Already Read
+https://medium.com/@tecnicorabi/why-1-1-is-true-but-128-128-is-false-in-java-4ea544e83eef
+
+https://levelup.gitconnected.com/mastering-task-scheduling-essential-tricks-for-senior-spring-boot-developers-934f42e0b425

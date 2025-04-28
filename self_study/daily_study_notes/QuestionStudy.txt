@@ -1,0 +1,39 @@
+The question need to be study: 
+
+Spring boot (Not prepared)
+1. What is the security features to protect against common web risks in spring boot ?
+2. What is the difference between spring boot and spring?
+3. Is there possibility to do Sql injection in reactjs and spring boot application ?
+
+Java (prepared)
+Why array need to convert to array list?
+Write enhance for loop , iterator and traditional for loop how to remove elements.
+What is difference between Array.asList() and List.of()
+
+Web security:(Not prepared)
+1. Security algorithm : MD5
+2. What is Collision attacks and brute-force attrack
+
+SQL:(Not prepared)
+1.What is username = "winnie"=="" ;
+where 1=1
+where 1=2
+
+2.partition by vs group by
+
+Terms:
+What is standalone application?
+It will not rely on any libraries / operates independently.
+Eg: Intellj /eclipse 
+Even a desktop game without network
+
+An application run in spring boot can be regarded as a standalone app.
+There is an embredded server in spring boot, but spring need to manually add server.
+
+
+
+https://blog.stackademic.com/top-10-backend-frameworks-ranked-the-good-the-bad-and-the-ugly-aa0d06186293
+https://medium.com/@poojaauma/i-thought-i-knew-java-streams-until-i-saw-this-69868c1f7123
+https://devrajcoder.medium.com/how-to-design-a-thread-safe-class-in-java-a51dd7987c5b
+https://medium.com/coding-odyssey/jp-morgan-java-developer-interview-2-88eebcfdfdb6
+https://medium.com/@hxu0407/java-optimization-7000ms-90ms-837d647c59ae

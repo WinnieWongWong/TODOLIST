@@ -1,0 +1,8 @@
+Java 
+DI 
+hashmap vs hashset
+string builder vs string buffer
+interface vs abstract class
+cipertext encode decode
+1 and 128 cache range
+exception vs error

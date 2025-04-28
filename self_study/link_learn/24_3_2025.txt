@@ -1,0 +1,15 @@
+https://medium.com/capital-one-tech/java-programming-a-deep-dive-into-java-21s-key-features-8776f75bc6b8
+
+https://medium.com/javaguides/beginners-stop-making-these-10-java-oop-mistakes-best-fixes-inside-3c0b7d764948
+
+https://medium.com/@yashwanthnandam/10-performance-tips-i-discovered-after-years-of-coding-in-java-3f57a0125ae3
+
+https://blog.stackademic.com/mastering-java-collections-tricky-interview-questions-f8bbde2b536a
+
+https://medium.com/@ShantKhayalian/server-sent-events-sse-and-long-polling-in-spring-boot-real-time-data-without-websockets-da3b3a4bb4f5
+
+https://medium.com/@priyasrivastava18official/java-interview-why-string-is-immutable-and-how-to-make-class-immutable-string-pools-concept-a4f93620d16d
+
+https://medium.com/@vino7tech/scaling-spring-boot-strategies-for-handling-millions-of-requests-214b75d13de9
+
+https://medium.com/@mehdibafdil/why-semicolons-in-javascript-are-actually-optional-3b67d54f749e

@@ -1,0 +1,32 @@
+To do list:
+
+Freelance for programming
+Freelance for makeup
+Stock get interest
+Look at 2800 stock price, hope to 27 can release all
+
+think how to reduce Tax
+
+The house in mainland
+Father apply protected healthcare
+
+===================================
+Must learn:
+
+Spring boot
+SQL
+Java
+hibernate jpa
+Jasper report
+Reactjs
+mongodb
+kafka
+web site security concept is enough
+
+linux command
+Docker
+Kubernates
+AWS
+git deep learning
+Deepseek open API
+learn drive car in mainland

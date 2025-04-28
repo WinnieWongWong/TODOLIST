@@ -1,0 +1,22 @@
+Step1 : set "SONAR_JAVA_PATH=C:\Program Files\Java\jdk-17.0.11\bin\java.exe"
+
+Step2:
+C:\sonarqube\sonarqube-10.6.0.92116\bin\windows-x86-64
+StartSonar.bat
+
+Step3: login as 
+admin
+wong
+
+Reference
+https://iammadhankumar.medium.com/installing-and-configuring-sonarqube-on-windows-64d9affe8db8
+
+
+
+To get sonar-cnes-report jar, please go to this website
+https://github.com/cnescatlab/sonar-cnes-report/releases/
+
+
+
+To install Sonar qube report 
+https://cloudzenia.com/blog/generate-and-download-code-analysis-report-in-sonar-qube-community-edition/
