@@ -52,3 +52,8 @@ https://blog.stackademic.com/10-microservices-exceptions-every-java-developer-wi
 https://blog.stackademic.com/interviewer-why-is-the-query-with-limit-0-10-fast-while-the-query-with-limit-1000000-10-slow-d1c12ab39cc7
 https://medium.com/@gaddamnaveen192/10-advanced-spring-boot-annotations-every-senior-developer-should-know-580d2dc287fb
 https://medium.com/@poojaauma/java-stream-api-the-interview-questions-youre-not-prepared-for-52ee13be9e14
+https://blog.stackademic.com/top-10-backend-frameworks-ranked-the-good-the-bad-and-the-ugly-aa0d06186293
+https://medium.com/@poojaauma/i-thought-i-knew-java-streams-until-i-saw-this-69868c1f7123
+https://devrajcoder.medium.com/how-to-design-a-thread-safe-class-in-java-a51dd7987c5b
+https://medium.com/coding-odyssey/jp-morgan-java-developer-interview-2-88eebcfdfdb6
+https://medium.com/@hxu0407/java-optimization-7000ms-90ms-837d647c59ae

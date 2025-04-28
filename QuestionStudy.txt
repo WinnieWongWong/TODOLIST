@@ -1,0 +1,56 @@
+The question need to be study: 
+
+Spring boot (prepared)
+1. What is Mircrodervice , can you give some examples about saga pattern?
+
+Spring boot (Not prepared)
+1. What is the security features to protect against common web risks in spring boot ?
+2. What is the difference between spring boot and spring?
+3. Is there possibility to do Sql injection in reactjs and spring boot application ?
+
+
+
+
+
+Java (prepared)
+Why array need to convert to array list?
+Write enhance for loop , iterator and traditional for loop how to remove elements.
+What is difference between Array.asList() and List.of()
+
+
+
+
+
+
+Web security:(Not prepared)
+1. Security algorithm : MD5
+2. What is Collision attacks and brute-force attrack
+
+
+
+
+
+SQL (prepared)
+1.partition by vs group by
+2.Left join | join 
+
+
+
+
+SQL:(Not prepared)
+1.What is username = "winnie"=="" ;
+where 1=1
+where 1=2
+
+
+
+Terms:
+What is standalone application?
+It will not rely on any libraries / operates independently.
+Eg: Intellj /eclipse 
+Even a desktop game without network
+
+An application run in spring boot can be regarded as a standalone app.
+There is an embredded server in spring boot, but spring need to manually add server.
+
+
