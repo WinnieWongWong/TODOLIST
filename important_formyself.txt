@@ -49,3 +49,6 @@ https://medium.com/@kanishksinghpujari/kubernetes-without-docker-is-the-future-a
 https://medium.com/@sharmapraveen91/clean-code-coding-guidelines-java-spring-boot-api-36a88e588008
 https://rishi-preetham.medium.com/java-interview-questions-in-2025-with-updated-technologies-4d4fd69cf68f
 https://blog.stackademic.com/10-microservices-exceptions-every-java-developer-wishes-they-knew-earlier-9c14c19bb082
+https://blog.stackademic.com/interviewer-why-is-the-query-with-limit-0-10-fast-while-the-query-with-limit-1000000-10-slow-d1c12ab39cc7
+https://medium.com/@gaddamnaveen192/10-advanced-spring-boot-annotations-every-senior-developer-should-know-580d2dc287fb
+https://medium.com/@poojaauma/java-stream-api-the-interview-questions-youre-not-prepared-for-52ee13be9e14
