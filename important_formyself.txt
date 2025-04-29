@@ -57,3 +57,13 @@ https://medium.com/@poojaauma/i-thought-i-knew-java-streams-until-i-saw-this-698
 https://devrajcoder.medium.com/how-to-design-a-thread-safe-class-in-java-a51dd7987c5b
 https://medium.com/coding-odyssey/jp-morgan-java-developer-interview-2-88eebcfdfdb6
 https://medium.com/@hxu0407/java-optimization-7000ms-90ms-837d647c59ae
+https://rameshfadatare.medium.com/5-microservices-design-patterns-you-must-know-in-2025-51d416540c4e
+https://medium.com/@denhox/sharing-data-between-microservices-fe7fb9471208
+https://medium.com/@dulanjayasandaruwan1998/spring-doesnt-recommend-autowired-anymore-05fc05309dad
+https://medium.com/@gaddamnaveen192/springboot3-lifecycle-replace-postconstruct-and-predestroy-with-modern-solutions-219be6f4e9d5
+https://medium.com/@anands282/setting-up-a-kafka-pipeline-to-ingest-a-stream-of-stock-market-data-2ff8ab95d584
+study kafka stockmarket 
+spring boot annotation:
+https://medium.com/@gaddamnaveen192/springboot3-lifecycle-replace-postconstruct-and-predestroy-with-modern-solutions-219be6f4e9d5
+Database Performance:
+https://blog.probirsarkar.com/database-performance-benchmark-postgresql-17-vs-mysql-9-vs-mongodb-8-047b3c32d933
