@@ -1,7 +1,7 @@
 The question need to be study: 
 
 Spring boot (prepared)
-1. What is Mircroservice , can you give some examples about saga pattern?
+1. What is Mircroservice , can you give some examples , eg saga pattern?
 
 Spring boot (Not prepared)
 1. What is the security features to protect against common web risks in spring boot ?
