@@ -1,7 +1,7 @@
 The question need to be study: 
 
 Spring boot (prepared)
-1. What is Mircrodervice , can you give some examples about saga pattern?
+1. What is Mircroservice , can you give some examples about saga pattern?
 
 Spring boot (Not prepared)
 1. What is the security features to protect against common web risks in spring boot ?
@@ -13,10 +13,10 @@ Spring boot (Not prepared)
 
 
 Java (prepared)
-Why array need to convert to array list?
+Why array need to convert to array list? (java/Convert an array to List.docx)
 Write enhance for loop , iterator and traditional for loop how to remove elements.
 What is difference between Array.asList() and List.of()
-
+Give some example how to use StringUtils (java/Check String.docx)
 
 
 
@@ -33,7 +33,7 @@ Web security:(Not prepared)
 SQL (prepared)
 1.partition by vs group by
 2.Left join | join 
-
+3. What is varchar number meaning (sql/Varchar number.docx)
 
 
 
