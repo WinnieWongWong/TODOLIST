@@ -67,3 +67,8 @@ spring boot annotation:
 https://medium.com/@gaddamnaveen192/springboot3-lifecycle-replace-postconstruct-and-predestroy-with-modern-solutions-219be6f4e9d5
 Database Performance:
 https://blog.probirsarkar.com/database-performance-benchmark-postgresql-17-vs-mysql-9-vs-mongodb-8-047b3c32d933
+https://www.vojtechruzicka.com/avoid-utility-classes/?source=post_page-----d777ac664fd4---------------------------------------
+https://blog.stackademic.com/spring-data-jpa-optimize-database-performance-using-queryhints-b8f72efae9de
+https://analystuttam.medium.com/sql-performance-trick-boost-query-speed-80-percent-54751bcb848c
+https://medium.com/@himanshu675/why-spring-boot-developers-must-stop-using-cron-jobs-in-2025-the-devops-disaster-you-cant-afford-564853b64958
+https://levelup.gitconnected.com/14-git-things-i-regret-not-knowing-earlier-20956c192b2b

@@ -1,0 +1,29 @@
+1.Get OrderResquest orderItemDTOlist
+2.Use map() to retrieve orderItemDTOlist, then create a skuCodeList
+3.Input skuCodeList for asking whether exist in Inventory service:
+
+  -order service send a topic to Inventory Service
+   pass a List of skuCode 
+   
+4. InventoryService isInStock
+   -Then send a topic to order service
+   
+   -If all in stock , then place order
+	
+   -If partial in stock , then place order for available products
+	Notify users the stock is not available.
+	(選擇有貨通知by email)
+   -Then turn order status to cancel
+	kafkaTemplate.send("rollback-topic", new OrderEvent(event.getOrderId(), "CANCELLED", "INVENTORY"));
+	
+========
+
+Create a table : Trasaction event
+
+trasactionid customerID orderID status service updated_time
+
+If last time, the customerID stay in a status not complete to shippment, then there is a record.
+select latest updated_time, then can see the latest situation of the customer. 
+
+This table can be a record next time.
+And reflect status in reactjs UI.
