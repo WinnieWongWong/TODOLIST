@@ -72,3 +72,10 @@ https://blog.stackademic.com/spring-data-jpa-optimize-database-performance-using
 https://analystuttam.medium.com/sql-performance-trick-boost-query-speed-80-percent-54751bcb848c
 https://medium.com/@himanshu675/why-spring-boot-developers-must-stop-using-cron-jobs-in-2025-the-devops-disaster-you-cant-afford-564853b64958
 https://levelup.gitconnected.com/14-git-things-i-regret-not-knowing-earlier-20956c192b2b
+https://medium.com/@vermatanisha666/youre-still-using-service-layers-in-spring-boot-here-s-why-that-s-outdated-1f41ac801fdf
+https://medium.com/devlink-tips/mastering-software-architecture-6-patterns-every-developer-should-know-and-actually-use-4471610bc750
+https://medium.com/javaguides/jackson-objectmapper-the-complete-guide-7d199d288fdf
+https://levelup.gitconnected.com/how-to-map-your-jpa-entities-with-rich-models-using-converter-6dd774385cdb
+https://medium.com/javaguides/boost-performance-in-spring-data-jpa-with-query-hints-7628b37be857
+https://medium.com/lets-code-future/why-spring-is-8x-better-than-node-and-no-thats-not-up-for-debate-9938d2e238e4
+https://codefarm0.medium.com/10-tricky-interview-questions-on-java-collections-89326f75f200
