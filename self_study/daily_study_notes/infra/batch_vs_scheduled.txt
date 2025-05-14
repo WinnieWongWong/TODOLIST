@@ -1,0 +1,5 @@
+Batch upload:
+Multiple files uploaded Immediately
+
+Scheduled upload:
+Multiple files uploaded at designated time
