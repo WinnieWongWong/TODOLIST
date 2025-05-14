@@ -1,0 +1,7 @@
+HTTPS vs HTTP
+
+HTTPS -> With SSL cert
+landing page -> login username and password encypted 
+
+HTTP -> Without SSL cert
+landing page ->  login username and password visible to everyone

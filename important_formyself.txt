@@ -1,12 +1,21 @@
 Daily :
 
 Java -> https://www.javaguides.net/2025/04/stop-writing-if-else-like-beginner.html
-sql -> Look for video
+sql -> youtude
 reactjs > react hooks
-kubernates | docker | kafka | mircroservice | Github deep use | application security  | AI and AI Agent | AWS (If ready , can apply course)
+
+Lunch:
+kubernates | docker | kafka | mircroservice | Github deep use | application security  | AI python and AI Agent | AWS (If ready , can apply course)
+
+other topic:
+Medium
+MongoDB
 
 Weekly:
 Do spring boot application practise
+
+Write a AI that analyst the incoming web request is malware
+Write a AI that help you wear clothes
 
 Material:
 
