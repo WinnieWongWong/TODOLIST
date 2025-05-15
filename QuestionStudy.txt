@@ -43,6 +43,9 @@ where 1=1
 where 1=2
 
 
+Infra:(Prepared)
+1. HTTP vs HTTPS
+2. HTTP request types and their body example 
 
 Terms:
 What is standalone application?
