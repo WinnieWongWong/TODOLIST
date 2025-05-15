@@ -1,0 +1,8 @@
+May 2025
+
+jack-of-all-trades 多功能工具人
+
+
+ground truth 鐵定事實
+
+use the model you trained to predict whether or not they survived the sinking of the Titanic.
