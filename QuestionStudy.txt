@@ -47,6 +47,8 @@ Infra:(Prepared)
 1. HTTP vs HTTPS
 2. HTTP request types and their body example 
 
+AI:
+
 Terms:
 What is standalone application?
 It will not rely on any libraries / operates independently.

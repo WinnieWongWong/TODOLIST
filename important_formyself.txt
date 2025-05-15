@@ -88,3 +88,13 @@ https://levelup.gitconnected.com/how-to-map-your-jpa-entities-with-rich-models-u
 https://medium.com/javaguides/boost-performance-in-spring-data-jpa-with-query-hints-7628b37be857
 https://medium.com/lets-code-future/why-spring-is-8x-better-than-node-and-no-thats-not-up-for-debate-9938d2e238e4
 https://codefarm0.medium.com/10-tricky-interview-questions-on-java-collections-89326f75f200
+https://medium.com/@haiou-a/java-why-cant-map-insert-null-e9f6a589129a
+https://medium.com/@kanishksinghpujari/kafka-streams-vs-flink-vs-spark-the-brutally-honest-comparison-05dcffc8df05
+https://medium.com/@dmosyan/duolingo-sending-6m-notifications-within-5-seconds-c630145038c3
+https://medium.com/javarevisited/void-misusing-java-streams-in-java-projects-here-is-the-correct-approach-851e6c668fd0
+https://blog.prateekjain.dev/a-step-by-step-guide-to-docker-image-optimisation-reduce-size-by-over-95-d90bcab3819d
+
+
+AI:
+
+https://edge.aif.tw/express-scikit-learn-pipeline/

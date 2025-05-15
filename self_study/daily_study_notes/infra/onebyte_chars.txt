@@ -1,0 +1,7 @@
+In notepad:
+
+ASCII Characters: one byte
+letters, numbers, punctuation
+
+Unicode Characters
+Size vary. UTF-8 encoding, these characters > one byte

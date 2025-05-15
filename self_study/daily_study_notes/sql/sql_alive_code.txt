@@ -1,0 +1,9 @@
+SQL aLIVE dictionary
+
+Remove permission of prevent edit
+SET SQL_SAFE_UPDATES=0;
+
+To get a datetime
+select substring(date_format(create_date , '%Y-%m-%d %H:%i'), 1, 15)
+eg
+2025-05-13 17:0
