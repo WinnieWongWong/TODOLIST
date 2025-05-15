@@ -95,6 +95,10 @@ https://medium.com/javarevisited/void-misusing-java-streams-in-java-projects-her
 https://blog.prateekjain.dev/a-step-by-step-guide-to-docker-image-optimisation-reduce-size-by-over-95-d90bcab3819d
 
 
-AI:
+AI for HTTP request smuggling
 
 https://edge.aif.tw/express-scikit-learn-pipeline/
+https://github.com/idankinderman/Malicious_URL_Detection
+https://www.imperva.com/learn/application-security/http-request-smuggling/
+
+https://www.imperva.com/learn/application-security
