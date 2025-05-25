@@ -1,0 +1,7 @@
+use products;
+
+DESCRIBE order_line_items;
+
+ALTER TABLE Products MODIFY productId INT AUTO_INCREMENT;
+
+Alter table order_line_items CHANGE COLUMN price price decimal(10,2);

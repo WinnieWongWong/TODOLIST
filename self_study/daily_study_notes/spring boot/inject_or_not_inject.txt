@@ -1,0 +1,7 @@
+Only service and repository need inject:
+
+@RequireArgsConstructor
+private final InventoryRepository inventoryRepository;
+private final InventoryService inventoryService;
+
+But DTO and Entity no need  to declare these, just import the class and use directly.

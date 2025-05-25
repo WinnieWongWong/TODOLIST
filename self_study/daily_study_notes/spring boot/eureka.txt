@@ -1,0 +1,58 @@
+
+The purpose of Eureka is to register service:  
+
+To register service , so no need to hard code http://localhost:8082/api/inventory/
+
+	download it in pom.xml spring cloud -> Spring cloud Netflix -> eureka 
+	
+http://inventoryService/api/inventory/
+	
+===============================================================================================================
+
+It has annoatation in init SpringBootApplication
+
+	@SpringBootApplication
+	@EnableEurekaClient
+	
+===============================================================================================================
+
+Find that:
+
+If put this config snippet inside discovery-server pom.xml , it will have error forever:
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+		
+So need to put this config in the mother basic shoppingCart pom.xml to solve the error:
+
+	<properties>
+		<spring-cloud.version>2023.0.0</spring-cloud.version>
+	</properties>
+	
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	
+But the spring cloud version always conflict with spring boot version.
+I try <version>3.4.4</version>, it is conflict with <spring-cloud.version>2023.0.0</spring-cloud.version> , so:
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.1</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	
+==============================================================================================================
+
+Client side load balancing   ????

@@ -1,0 +1,10 @@
+In entity:
+
+To create getter setter method:
+@Setter
+@Getter
+
+In DTO:
+
+To create getter setter method:
+@Data

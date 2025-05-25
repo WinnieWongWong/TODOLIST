@@ -1,0 +1,7 @@
+Event driven architecture(EDA):
+
+Many applications asynchronously published and subscribed events by broker.
+
+Event driven architecture is loosely coupled.
+
+Apllciations use events to communicate

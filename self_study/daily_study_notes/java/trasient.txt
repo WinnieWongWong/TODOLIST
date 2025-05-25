@@ -1,0 +1,4 @@
+transient 
+
+
+When events are transient ,application restarts , events will lose.

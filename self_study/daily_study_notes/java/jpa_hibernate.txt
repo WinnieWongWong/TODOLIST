@@ -1,0 +1,12 @@
+Spring Data JPA is an abstraction layer on top of JPA to reduce 
+boilerplate code to implement DAO.
+
+JPA is just a specification that facilitates object-relational mapping(ORM)
+to manage relational data in java applications
+
+Hibernate JDBC:
+Hibernate is a JPA implementation
+Hibernate generates SQL query and executes using JDBC
+
+Hibernate is a ORM tool.
+is a framework that map objects to relational database tables

@@ -1,0 +1,29 @@
+Generics:
+
+T = Any type
+
+It allows Class, interface , methods to create a type generics <>,  code reuse.
+Ensure type safty
+No need to cast object.
+
+
+
+@Data
+public class Box<T> {
+    private T item;
+
+}
+
+// Usage
+Box<String> stringBox = new Box<>();  <------ Accept any type!!!!!!!!!!!!!!!!!!!!
+stringBox.setItem("Hello");
+String item = stringBox.getItem(); // No cast needed
+
+
+
+
+Unbounded Wildcards -> ? -> accepts any type
+
+Upper bounded wildcards (<? extends T>) -> Accepts any type that is a subtype of T.
+
+Lower bounded wildcards (<? super T>) -> Accepts any type that is a supertype of T.

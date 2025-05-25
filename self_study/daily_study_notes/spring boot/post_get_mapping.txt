@@ -1,0 +1,25 @@
+@PostMapping
+
+	When to use:
+	Insert / Update data
+
+	---
+	@ResponseStatus(HttpStatus.Created)
+	request Dto as PARA
+
+
+=================================
+
+@GetMapping("/{sku-code}")
+
+	When to use:
+	Get data from database
+
+	---
+	@ResponseStatus(HttpStatus.OK)
+	@PathVariable("sku-code") as PARA
+
+================================
+
+If get all data without any para as condition, then 
+@GetMapping()

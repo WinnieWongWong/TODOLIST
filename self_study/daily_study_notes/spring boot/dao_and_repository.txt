@@ -1,0 +1,20 @@
+DAO:
+Do CRUD operation
+Data access logic 
+
+Write sql logic in function
+
+
+
+=================================================================================
+
+
+
+Repository:
+is an interface extends JpaRepository / CrudRepository
+Business logic 
+
+Can new a repository and save()
+WikiChange wikichange = new WikiChange();
+wikichange.setWikiStream(message);
+this.wikiChangeRepository.save(wikichange);
