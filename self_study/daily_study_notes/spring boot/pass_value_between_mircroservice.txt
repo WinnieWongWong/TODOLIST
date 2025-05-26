@@ -1,0 +1,9 @@
+Use which one to post and get value between different services in mircroservice ?
+
+1. Kafka publish and listen
+   Not sync , may has delay
+
+2. webclient.url
+   sync , no latency and delay
+
+3. GRPC

@@ -1,0 +1,30 @@
+To insert a list of records that same product_name, category , price_date , with changed as 2025-05-20
+
+INSERT INTO products (product_name, category, price_date, price)
+SELECT product_name, category, '2025-05-20' AS price_date, price 
+FROM products 
+WHERE price_date = '2025-05-10';
+
+=======================================================================
+To insert a list of records that same product_name, category , price_date , with changed as 2025-05-20 and random price
+
+INSERT INTO products (product_name, category, price_date, price)
+SELECT product_name, category, '2025-05-20' AS price_date, 
+       ROUND(10 + (RAND() * (500 - 10)), 2) AS price 
+FROM products 
+WHERE price_date = '2025-05-10';
+
+price want to be inserted as random price
+
+======================================================================================
+
+select product_name, (original- laterPrice) / original * 100 as discount from 
+(
+select product_name,
+max(case when price_date = '2025-05-10' then price end) as original,
+max(case when price_date = '2025-05-20' then price end) as laterPrice 
+from products group by product_name
+) as price_sum where original IS NOT NULL AND laterPrice IS NOT NULL group by product_name;
+
+========================================================================================
+
