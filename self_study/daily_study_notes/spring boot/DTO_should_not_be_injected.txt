@@ -1,0 +1,88 @@
+I have an error:
+
+Parameter 2 of constructor in com.orderDomain.service.OrderService required a bean of type 'com.orderDomain.dto.InventoryResponse' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.orderDomain.dto.InventoryResponse' in your configuration.
+
+My orderService is written like this:
+
+package com.orderDomain.service;
+
+import com.orderDomain.dto.InventoryResponse;
+import com.orderDomain.dto.OrderItemDTO;
+import com.orderDomain.dto.OrderRequest;
+import com.orderDomain.entity.Order;
+import com.orderDomain.entity.OrderItem;
+import com.orderDomain.repository.OrderRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.UUID;
+
+@Service
+@RequiredArgsConstructor
+public class OrderService {
+    public final OrderRepository orderRepository;
+    public final WebClient.Builder webClientBuilder;
+    public final InventoryResponse inventoryResponse;
+
+    public void createOrder(OrderRequest orderRequest){
+
+        //values from DTO bind to entity
+        Order order = new Order();
+        order.setOrderNumber(UUID.randomUUID().toString());
+
+        List<OrderItem> orderItemListL = orderRequest.getOrderItemDTOList().stream().map(this::assignValues_orderItemList).toList();
+        order.setOrderItemList(orderItemListL);
+
+        //Call Inventory service , Check the product exist in inventory before place order
+        List<String> skuCodeList = orderRequest.getOrderItemDTOList().stream().map(this::getSkuList).toList();
+
+        //return array of DTO InventoryResponse which exist in inventory
+        InventoryResponse[] inventoryResponseArray = webClientBuilder.build().get()
+                        .uri("http://localhost:8082/api/inventory",
+                                urlBuilder -> urlBuilder.queryParam("skuCode" , skuCodeList).build()
+                        ).retrieve().bodyToMono(InventoryResponse[].class).block();
+
+        //Return one boolean if all InventoryResponse exist
+        boolean ifAllProductsInStock = Arrays.stream(inventoryResponseArray).allMatch(InventoryResponse::isInStock); //InventoryResponse -> InventoryResponse.isInStock()
+
+        if(ifAllProductsInStock)
+            orderRepository.save(order);
+        else
+            throw new IllegalArgumentException("Product is not in stock." + Arrays.stream(inventoryResponseArray).anyMatch(InventoryResponse-> !InventoryResponse.isInStock()));
+    }
+
+    private String getSkuList(OrderItemDTO orderItemDTO){
+        return orderItemDTO.getSkuCode();
+    }
+
+    private OrderItem assignValues_orderItemList(OrderItemDTO orderItemDTO){
+        OrderItem orderItem = new OrderItem();
+        orderItem.setSkuCode(orderItemDTO.getSkuCode());
+        orderItem.setPrice(orderItemDTO.getPrice());
+        orderItem.setQuantity(orderItemDTO.getQuantity());
+
+        return orderItem;
+    }
+
+}
+
+
+POE:
+
+Since InventoryResponse is likely a DTO (Data Transfer Object) and not a service or component, you should not be injecting it directly into your OrderService. Instead, you can create instances of it as needed.
+
+Update your OrderService to remove the InventoryResponse field:
+
+DTO should not be injected , it should use directly !!!!!!
+
+1. import com.orderDomain.dto.OrderItemDTO;
+2. public final OrderItemDTO orderItemDTO; (No this !!!!!!)
+3. orderItemDTO.getSkuCode(); (Directly use !!!)

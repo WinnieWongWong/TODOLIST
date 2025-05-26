@@ -1,0 +1,18 @@
+Why It Returns List<ProductResponse>?
+
+public List<ProductResponse> getAllProducts(){
+        List<Product> products = productRepository.findAll();
+        //Entity bind values to dto
+        return products.stream().map(this::mapToDTO).toList(); // Why it can toList() directly?
+    }
+
+    private ProductResponse mapToDTO(Product p){
+        return ProductResponse.builder()
+                .id(p.getId())
+                .name(p.getName())
+                .description(p.getDescription())
+                .price(p.getPrice()).build();
+    }
+
+The map function returns a Stream<ProductResponse> since each Product is transformed into a ProductResponse.
+When you call toList() on that stream, it collects all the ProductResponse objects into a List<ProductResponse>.

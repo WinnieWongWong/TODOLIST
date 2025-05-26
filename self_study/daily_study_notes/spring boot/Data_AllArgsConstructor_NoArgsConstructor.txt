@@ -1,0 +1,49 @@
+Annotation: Data, AllArgsConstructor, NoArgsConstructor
+
+@Data generates getters, setters, and other methods.
+@AllArgsConstructor allows you to create a User instance with all properties.
+@NoArgsConstructor provides a default constructor for creating a blank User object, where an object needs to be instantiated without any initial values
+
+
+I guess:
+
+Data can create getters, setters.
+AllArgsConstructor can create a constructor with all properties
+NoArgsConstructor can create a constructor with empty properties
+
+Example:
+
+import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Order(){
+	private int id;
+	private String orderName;
+}
+
+So there is no need to declare:
+
+	public int getID(){
+		return getID;
+	}
+
+	public void setID(int id){
+		this.id = id;
+	}
+
+Also no need to declare:
+
+	public Order(int id, String orderName){
+		this.id = id;
+		this.orderName = orderName;
+	}
+
+	public Order(){
+	}
+	
+	

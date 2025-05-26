@@ -1,0 +1,18 @@
+String response = webClient.get()
+    .uri("https://api.example.com/data")
+    .retrieve()
+    .bodyToMono(String.class)
+    .block();
+	
+	
+String response = webClient.get()
+    .uri("https://api.example.com/data")
+    .retrieve()
+    .bodyToMono(Boolean.class)
+    .block();
+	
+	
+1. Make a Get request to the url
+2. Return String / Boolean Response Body
+
+
