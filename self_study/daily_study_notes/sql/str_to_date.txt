@@ -1,0 +1,5 @@
+When insert a date / datetime
+
+STR_TO_DATE('20250526', '%Y%m%d')
+
+INSERT INTO pki_rca_test VALUES ('020', 'CDBT3', STR_TO_DATE('20250526', '%Y%m%d'), STR_TO_DATE('20250528', '%Y%m%d'), sysdate());
