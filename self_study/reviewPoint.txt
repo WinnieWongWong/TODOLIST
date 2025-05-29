@@ -1,0 +1,9 @@
+SQL:
+Date range (To get datetime column.docx)
+1.	What is three method to select datetime range accurately include last day end time ?
+2.	What is two methods to select datetime range?
+3.	Small differences between <= ‘now()’ + INTERVAL 1 DAY and < now() + INTERVAL 1 DAY.
+4.	What str_to_date() do?
+5.	Answer of now() + interval 1 day.
+
+
