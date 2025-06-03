@@ -1,0 +1,139 @@
+Topic : Save money
+
+CREATE TABLE save_money (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255),
+    save_date DATETIME,
+    amount DECIMAL(10, 2)
+);
+
+INSERT INTO sales_amount (name, save_date, amount) VALUES
+('Alice Johnson', '2024-01-01 10:00:00', 99.99),
+('Bob Smith', '2024-01-02 11:00:00', 150.50),
+('Alice Johnson', '2024-01-03 12:00:00', 75.75),
+('Charlie Brown', '2024-01-04 13:00:00', 200.00),
+('Diana Prince', '2024-01-05 14:00:00', 120.00),
+('Bob Smith', '2024-01-06 15:00:00', 300.00),
+('Alice Johnson', '2024-01-07 16:00:00', 45.00),
+('Eve Adams', '2024-01-08 17:00:00', 89.99),
+('Charlie Brown', '2024-01-09 18:00:00', 50.00),
+('Diana Prince', '2024-01-10 19:00:00', 60.00),
+('Alice Johnson', '2024-01-11 20:00:00', 100.00),
+('Bob Smith', '2024-01-12 21:00:00', 125.00),
+('Eve Adams', '2024-01-13 22:00:00', 110.00),
+('Charlie Brown', '2024-01-14 23:00:00', 130.00),
+('Diana Prince', '2024-01-15 08:00:00', 95.00),
+('Alice Johnson', '2024-01-16 09:00:00', 85.00),
+('Bob Smith', '2024-01-17 10:00:00', 70.00),
+('Eve Adams', '2024-01-18 11:00:00', 115.00),
+('Charlie Brown', '2024-01-19 12:00:00', 140.00),
+('Diana Prince', '2024-01-20 13:00:00', 55.00),
+('Alice Johnson', '2024-01-21 14:00:00', 80.00),
+('Bob Smith', '2024-01-22 15:00:00', 300.00),
+('Eve Adams', '2024-01-23 16:00:00', 90.00),
+('Charlie Brown', '2024-01-24 17:00:00', 125.00),
+('Diana Prince', '2024-01-25 18:00:00', 100.00),
+('Alice Johnson', '2024-01-26 19:00:00', 60.00),
+('Bob Smith', '2024-01-27 20:00:00', 150.00),
+('Eve Adams', '2024-01-28 21:00:00', 75.00),
+('Charlie Brown', '2024-01-29 22:00:00', 110.00),
+('Diana Prince', '2024-01-30 23:00:00', 95.00),
+('Alice Johnson', '2024-02-01 08:00:00', 100.00),
+('Bob Smith', '2024-02-02 09:00:00', 130.00),
+('Eve Adams', '2024-02-03 10:00:00', 80.00),
+('Charlie Brown', '2024-02-04 11:00:00', 140.00),
+('Diana Prince', '2024-02-05 12:00:00', 85.00),
+('Alice Johnson', '2024-02-06 13:00:00', 150.00),
+('Bob Smith', '2024-02-07 14:00:00', 120.00),
+('Eve Adams', '2024-02-08 15:00:00', 70.00),
+('Charlie Brown', '2024-02-09 16:00:00', 90.00),
+('Diana Prince', '2024-02-10 17:00:00', 60.00),
+('Alice Johnson', '2024-02-11 18:00:00', 110.00),
+('Bob Smith', '2024-02-12 19:00:00', 95.00),
+('Eve Adams', '2024-02-13 20:00:00', 150.00),
+('Charlie Brown', '2024-02-14 21:00:00', 75.00),
+('Diana Prince', '2024-02-15 22:00:00', 100.00),
+('Alice Johnson', '2024-02-16 23:00:00', 130.00),
+('Bob Smith', '2024-02-17 08:00:00', 85.00),
+('Eve Adams', '2024-02-18 09:00:00', 60.00),
+('Charlie Brown', '2024-02-19 10:00:00', 140.00),
+('Diana Prince', '2024-02-20 11:00:00', 90.00),
+('Alice Johnson', '2024-02-21 12:00:00', 100.00),
+('Bob Smith', '2024-02-22 13:00:00', 150.00),
+('Eve Adams', '2024-02-23 14:00:00', 75.00),
+('Charlie Brown', '2024-02-24 15:00:00', 110.00),
+('Diana Prince', '2024-02-25 16:00:00', 95.00),
+('Alice Johnson', '2024-02-26 17:00:00', 120.00),
+('Bob Smith', '2024-02-27 18:00:00', 130.00),
+('Eve Adams', '2024-02-28 19:00:00', 80.00),
+('Charlie Brown', '2024-02-29 20:00:00', 140.00),
+('Diana Prince', '2024-03-01 21:00:00', 85.00),
+('Alice Johnson', '2024-03-02 22:00:00', 150.00),
+('Bob Smith', '2024-03-03 23:00:00', 100.00),
+('Eve Adams', '2024-03-04 08:00:00', 90.00),
+('Charlie Brown', '2024-03-05 09:00:00', 110.00),
+('Diana Prince', '2024-03-06 10:00:00', 95.00),
+('Alice Johnson', '2024-03-07 11:00:00', 120.00),
+('Bob Smith', '2024-03-08 12:00:00', 130.00),
+('Eve Adams', '2024-03-09 13:00:00', 75.00),
+('Charlie Brown', '2024-03-10 14:00:00', 140.00),
+('Diana Prince', '2024-03-11 15:00:00', 80.00),
+('Alice Johnson', '2024-03-12 16:00:00', 150.00),
+('Bob Smith', '2024-03-13 17:00:00', 100.00),
+('Eve Adams', '2024-03-14 18:00:00', 90.00),
+('Charlie Brown', '2024-03-15 19:00:00', 110.00),
+('Diana Prince', '2024-03-16 20:00:00', 95.00),
+('Alice Johnson', '2024-03-17 21:00:00', 120.00),
+('Bob Smith', '2024-03-18 22:00:00', 130.00),
+('Eve Adams', '2024-03-19 23:00:00', 75.00),
+('Charlie Brown', '2024-03-20 08:00:00', 140.00),
+('Diana Prince', '2024-03-21 09:00:00', 80.00),
+('Alice Johnson', '2024-03-22 10:00:00', 150.00),
+('Bob Smith', '2024-03-23 11:00:00', 100.00),
+('Eve Adams', '2024-03-24 12:00:00', 90.00),
+('Charlie Brown', '2024-03-25 13:00:00', 110.00),
+('Diana Prince', '2024-03-26 14:00:00', 95.00),
+('Alice Johnson', '2024-03-27 15:00:00', 120.00),
+('Bob Smith', '2024-03-28 16:00:00', 130.00),
+('Eve Adams', '2024-03-29 17:00:00', 75.00),
+('Charlie Brown', '2024-03-30 18:00:00', 140.00),
+('Diana Prince', '2024-03-31 19:00:00', 80.00);
+
+
+/*Select who is quick to save >= 2000*/
+select customer_name, min(sale_date) from (
+	select customer_name , sale_date, price, sum(price) OVER (PARTITION BY customer_name order by sale_date asc) as sum_price from sales_amount
+) as dd where sum_price >=2000
+group by customer_name
+order by 2 asc; 
+
+
+/*The 25% Top store value*/
+
+select * from (
+	select name, each_person_sales,
+	PERCENT_RANK() OVER (ORDER BY each_person_sales DESC) AS PercentRank
+	from (
+		select name, sum(value) as each_person_sales from persons where date(store_date) between '2024-01-01' and '2024-12-31' group by name
+	) as each_persons
+) as each_persons_table where PercentRank <= 0.25;
+ 
+ 
+Why not :
+PERCENT_RANK() OVER (ARTITION BY name ORDER BY each_person_sales DESC) AS PercentRank
+
+Because:
+returning all zeros in the PERCENT_RANK() results
+
+percent_rank = RANK -1 / ROW_NUM -1
+
+If you are partitioning by name in your query and each name is unique (which it is in your dataset),
+then each partition will only contain one row. 
+Consequently, N is 1 for each partition.
+
+partition = 劃線計算
+
+Change to :
+
+PERCENT_RANK() OVER (ORDER BY each_person_sales DESC) AS PercentRank
+will now calculate the rank across all persons

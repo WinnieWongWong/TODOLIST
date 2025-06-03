@@ -1,0 +1,124 @@
+Partition vs group by
+
+
+SELECT 
+    Name,
+    date,
+    SUM(value) OVER (PARTITION BY Name) AS total_value
+FROM 
+    your_table;
+
+Partition(劃線): without order by
+Name    date           value 	sum(value)
+Amy     14-5-2025      10			100
+Amy     15-5-2025      30			100
+Amy     16-5-2025      20			100
+Amy     17-5-2025      40			100
+---
+John    14-5-2025      100			300
+John    15-5-2025      120			300
+John    16-5-2025      180			300
+---
+Jesus   14-5-2025      260			500
+Jesus   15-5-2025      240			500
+
+total sum for each Name is repeated across all rows with that name
+****************************************************************************
+
+SELECT 
+    Name,
+    date,
+    SUM(value) OVER (PARTITION BY Name ORDER BY date ASC) AS cumulative_value
+FROM 
+    your_table;
+
+Partition(劃線): with order by date asc
+Name    date           sum(value) order by date
+Amy     14-5-2025      50
+Amy     15-5-2025      60  (50 + 10)
+Amy     16-5-2025      70  (60 + 10)
+Amy     17-5-2025      100 (cumulative sum)
+---
+John    14-5-2025      10
+John    15-5-2025      100
+John    16-5-2025      300
+---
+Jesus   14-5-2025      200
+Jesus   15-5-2025      500
+
+Will show cumulative sum
+****************************************************************************
+
+SELECT 
+    Name,
+    SUM(value) AS total_value
+FROM 
+    your_table
+GROUP BY 
+    Name;
+
+group by:(!!!!!Warning!!!! If group by Name , do not group by date. Since group by date here will error.)
+Name    date           sum(value)
+Amy     17-5-2025      100 (sum all)
+John    16-5-2025      300 (sum all)
+Jesus   15-5-2025      500 (sum all)
+
+****************************************************************************
+
+Handle Null values when do partition:
+1. COALESCE
+........PARTITION BY COALESCE(Name, 'Unknown')........
+
+2. Filter Null values before do partition
+SELECT 
+    Name,
+    date,
+    SUM(value) OVER (PARTITION BY Name ORDER BY date ASC) AS cumulative_value
+FROM 
+    your_table
+WHERE 
+    Name IS NOT NULL;
+	
+	
+Handle Null values when group by:
+1. COALESCE
+select COALESCE(name , 'Unknown'), sum(value) from abc group by COALESCE(name , 'Unknown');
+
+2. IS NOT NULL
+SELECT 
+    Name,
+    SUM(value) AS total_value
+FROM 
+    your_table
+WHERE 
+    Name IS NOT NULL
+GROUP BY 
+    Name;
+	
+****************************************************************************
+
+percent_rank() :
+
+-Return 0 or 1
+
+- + order by is a must , ordering is emphasized
+
+-Always return 0 + Partition(Name) in this situation:
+Name    date           sum(value)
+Amy     17-5-2025      100 (sum all)
+John    16-5-2025      300 (sum all)
+Jesus   15-5-2025      500 (sum all)
+
+Name    date           sum(value)       percent_rank
+Amy     17-5-2025      100 (sum all)    0
+John    16-5-2025      300 (sum all)    0
+Jesus   15-5-2025      500 (sum all)    0
+
+
+
+Review point:
+1. What is difference between partition and group by
+2. partition without order by 
+3. partition with order by 
+4. Handle Null values
+5. What happen when Percent_rank() + partition + order by 
