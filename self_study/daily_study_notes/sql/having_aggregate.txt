@@ -1,0 +1,19 @@
+Having aggregate_function
+
+-Filter results based on count , sum , avg
+-Must + group by
+
+
+SELECT 
+    user_id, 
+    COUNT(CASE WHEN event_type = 'video call received' THEN 1 END) AS video_call_received_count
+FROM 
+    events
+GROUP BY 
+    user_id
+HAVING 
+    COUNT(CASE WHEN event_type = 'video call received' THEN 1 END) > 3;
+	
+	
+group by 返 user_id
+Having 返 COUNT(CASE WHEN event_type = 'video call received' THEN 1 END) > 3

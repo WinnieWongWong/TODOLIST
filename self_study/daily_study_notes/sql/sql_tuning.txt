@@ -1,0 +1,19 @@
+SQL Tuning:
+
+1. Create INDEX
+
+		Create INDEX index_name
+		on table_name (c1 , c2 ,..);
+		
+   - !!!Identify which column frequently for query, then create index for these columns!!!
+   
+   - To show which tables have created index:
+   
+        SELECT TABLE_NAME, INDEX_NAME, COLUMN_NAME
+		FROM information_schema.STATISTICS
+		WHERE TABLE_SCHEMA = 'scheme';
+		
+   - To show a table which column has created index:
+   
+	 SHOW INDEX FROM act_audit_attachment;
+
