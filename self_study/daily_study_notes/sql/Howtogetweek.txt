@@ -1,0 +1,7 @@
+case when datepart(WEEKDAY, now()) = 1 Then 'Sunday'
+case when dayofweek(now()) = 1 Then 'Sunday'
+
+如果 MSSQL -> getDate()
+
+DATE_FORMAT(NOW(), '%W') AS DayOfWeek  -> Monday
+DATE_FORMAT(NOW(), '%a') AS AbbreviatedDayOfWeek -> Mon
