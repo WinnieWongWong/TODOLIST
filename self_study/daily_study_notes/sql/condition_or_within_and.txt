@@ -1,0 +1,10 @@
+"SELECT teml.temlId, teml.temlName, teml.projId, teml.chanType "
+			+ "FROM hk_gov_spica_scopes_spica_jpa_teml_Teml teml, hk_gov_spica_scopes_spica_jpa_temlaccsrigh_TemlAccsRigh temlAccsRigh "
+			+ "WHERE teml.temlId = temlAccsRigh.id.temlId "
+			+ "AND temlAccsRigh.id.bdId = :bdId "
+			+ "AND (temlAccsRigh.id.projId = :projId or temlAccsRigh.id.bdSharInd = 'Y' ) "
+			+ "ORDER BY teml.temlName ";
+			
+			
+What you learn:
+You can use (temlAccsRigh.id.projId = :projId or temlAccsRigh.id.bdSharInd = 'Y' ) for a comparison
