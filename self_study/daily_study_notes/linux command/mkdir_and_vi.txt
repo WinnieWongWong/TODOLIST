@@ -1,0 +1,2 @@
+mkdir -p sql/bbb && vi sql/bbb/abc
+

@@ -1,0 +1,43 @@
+Derived attribute 
+ 
+It is a calculation from other column in a table.
+
+如果設計student table , 年齡應該用什麼儲
+
+1. 今年幾歲 (eg 12 , 15...)
+2. Date of birth (eg 1997-08-05)
+
+Answer:
+
+	For age , it mush not store 10 ,20 , 30...
+	It should be DATE_OF_BIRTH
+	Because age will increase year by year.
+	
+roll_no   name       DOB
+1         kartik     01.01.2003
+2         yash       01.01.2004
+3         aditya     12.12.2003
+
+select round(DATEDIFF(CURDATE(), '2003-01-01') / 365 , 0) as age from student;
+
+What you learn :
+1. design a table , you should consider what store in table.
+2. datediff() 通常return 兩日子間日數 , then 除365 變多少年
+
+============================================================
+
+More examples of derived attributes
+
+The percentage can be derived from the obtained marks.
+The city can be derived from the pin code.
+The due date can be derived from the borrowed date.
+Profit can be derived from the total cost and total revenue.
+
+Benefits of Derived Attribute
+They are not physically stored, 
+they are calculated using the other attribute resulting in no cost for storage.
+
+Disadvantages of Derived Attribute
+Calculation gets increased every time
+
+

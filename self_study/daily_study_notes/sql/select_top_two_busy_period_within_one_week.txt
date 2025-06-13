@@ -76,6 +76,7 @@ select period , ranking_num from(
 What you learn :
 Reduce nested select by:
 1. having ranking_num <=2   (Can be where ranking_num <=2 here)
+
 2. rank() over(order by count(period) desc)
 
 originally:

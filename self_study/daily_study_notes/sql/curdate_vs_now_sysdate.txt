@@ -1,0 +1,10 @@
+In mysql , What is difference between curdate() , now(), sysdate()
+
+curdate()
+-> return YYYY-MM-DD (Date)
+
+now()
+-> date time
+
+sysdate()
+-> same to now() , but may be slightly different , return date time which the function is called

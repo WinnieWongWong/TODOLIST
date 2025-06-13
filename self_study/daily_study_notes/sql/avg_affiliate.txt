@@ -1,0 +1,13 @@
+/*Find affiliate which avg amount higher than all affiliate avg amount*/
+
+select affiliate_id, avg(amount) from transaction_records
+group by affiliate_id 
+having avg(amount) > (select avg(amount) from transaction_records);
+
+
+
+What you learn:
+select avg(amount) from transaction_records -> all affiliate avg amount
+
+select affiliate_id, avg(amount) from transaction_records group by affiliate_id
+->Each affiliate avg amount

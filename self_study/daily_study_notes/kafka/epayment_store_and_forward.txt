@@ -1,0 +1,16 @@
+Distributed transactions:
+
+Monolithic
+
+- 2 phase commit protocol
+
+Microservices
+
+- Synchronous and Asynchronous -> update data across multiple system.
+
+
+Epayment always need store and forward processing.
+
+store and forward processing:
+
+Avoid package loss
